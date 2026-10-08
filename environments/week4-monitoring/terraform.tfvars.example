@@ -1,0 +1,6 @@
+region = "us-east-1"
+environment = "week4"
+vpc_id = "vpc-0123456789abcdef0"
+enable_traffic_mirroring = false
+enable_guardduty = false
+enable_auto_isolate = false

@@ -1,0 +1,5 @@
+region = "us-east-1"
+environment = "week1"
+vpc_cidr = "10.1.0.0/16"
+acm_certificate_arn = "" # paste ACM ARN only locally, never commit real ARNs
+db_multi_az = false

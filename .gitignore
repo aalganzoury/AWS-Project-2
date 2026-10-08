@@ -1,0 +1,36 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# AWS / keys - NEVER commit real credentials
+*.pem
+*.key
+*.p12
+*.pfx
+easy-rsa/pki/
+client-vpn-*.ovpn
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python / checkov
+__pycache__/
+*.pyc
+
+# Evidence with real data (keep templates only)
+# docs/evidence/*.png

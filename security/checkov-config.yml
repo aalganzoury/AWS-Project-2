@@ -1,0 +1,10 @@
+# Checkov configuration for this portfolio lab.
+# Every skip below is justified for a learning/lab repo; review before production use.
+directory:
+  - terraform
+soft-fail: false
+framework:
+  - terraform
+# Example justified skips (add CKV_AWS_NNN with comment when used inline):
+# - CKV_AWS_8: "ALB HTTP->HTTPS redirect is intentional; HTTPS listener uses ACM variable placeholder."
+compact: true

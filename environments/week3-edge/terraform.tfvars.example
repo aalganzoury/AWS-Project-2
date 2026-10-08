@@ -1,0 +1,9 @@
+region = "us-east-1"
+environment = "week3"
+alb_arn = "" # paste ALB ARN locally from week1 outputs
+alb_dns_name = ""
+enable_dns = false
+domain_name = "app.example.com"
+hosted_zone_id = ""
+enable_global_accelerator = false
+waf_log_arn = ""

@@ -1,0 +1,11 @@
+region = "us-east-1"
+environment = "week2"
+hub_vpc_id = "vpc-0123456789abcdef0" # fill from week1/hub outputs locally
+prod_vpc_id = "vpc-0123456789abcdef1"
+dev_vpc_id = "vpc-0123456789abcdef2"
+hub_tgw_subnets = ["subnet-aaa", "subnet-bbb"]
+prod_tgw_subnets = ["subnet-ccc", "subnet-ddd"]
+dev_tgw_subnets = ["subnet-eee", "subnet-fff"]
+customer_gateway_ip = "203.0.113.12"
+use_bgp = false
+enable_client_vpn = false

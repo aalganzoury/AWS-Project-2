@@ -1,0 +1,10 @@
+region = "us-east-1"
+environment = "full"
+vpc_cidr = "10.1.0.0/16"
+acm_certificate_arn = ""
+enable_client_vpn = false
+enable_global_accelerator = false
+enable_traffic_mirroring = false
+enable_guardduty = false
+enable_dns = false
+customer_gateway_ip = "203.0.113.12"
